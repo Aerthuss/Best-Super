@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+
+
+<html lang = "en">
+    <head>
+        <title> About Us </title>
+        
+        <link rel ="stylesheet" href="style.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Raleway|Open+Sans" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <meta charset="utf-8">
+        <meta name ="viewport" content ="width = device-width, initial-scale = 1.0">
+        
+    </head>
+    
+    <body>
+        
+        <header class = "topHeader"> 
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <h1> Best Super </h1>
+        </header>
+        
+                            
+        <nav class = "topNav">
+            <ul class = "navLinks">
+                <li id = "homeButton"> <a href = "index.html"> Best Super </a> </li>
+                <li class = "navRight"> <a href = "contact.html"> Contact Us </a> </li>
+                <li class = "navRight"> <a href = "clients.html"> Clients </a> </li>
+                <li class = "navRight"> <a href = "guides.html"> Guides </a> </li>
+                <li class = "navRight"> <a href = "about.html"> About Us </a> </li>
+                <li class = "navRight"> <a href = "index.html"> Home </a> </li>
+            </ul>
+        </nav>
+        
+        <aside id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html"> Home </a>
+            <a href="guides.html"> Guides </a>
+            <a href="clients.html"> Clients </a>
+            <a href="about.html"> About Us </a>
+            <a href="contact.html"> Contact Us </a>
+        </aside>
+        
+        <section id = "banner">
+            <img src = "http://www.bettertogethermexico.com/wp-content/uploads/2016/02/BAnner_Honeymoon.jpg" id = "bannerImg"/>
+            
+            <p id = "aboutBannerText"> About Us. </p>
+        </section>
+        
+        <main id = "aboutMain">
+            
+            <article class = "homeArticle" id = "aboutArticle">
+                <br>
+                <p> We're Best Super. We're a dedicated team that has been helping our clients with understanding super and advising them on which super is the best for them for more than 25 years. </p>
+                <br>
+                
+                <p> Our philosophy for helping our clients with their super are: </p>
+                <br>
+                
+                <!-- CSS wont allow for a new list-style-type to be implemented for some reason. -->
+                <ul> 
+                    <li> - Make sure our clients know what super is </li>
+                    <li> - Make sure our clients understand how super works </li>
+                    <li> - Make sure our clients know what options they have when it comes to super </li>
+                    <li> - Advise clients on what their best super options are </li>
+                </ul>
+                
+                <br>
+                <p> At Best Super we will always live up to this philosophy on customer care, making sure that we take the most complete and utter care of our clients of which we value very dearly. </p>
+                <br> 
+                
+                <p> This is a guaranteed service to our clients, enforced by the Best Super founder, </p>
+                <p> Chris Superson </p>
+                <br>
+                
+                <p> If you have any questions regarding our service, ask our friendly team ! Chat with them on our website <a href = "contact.html"> here</a> or give them a call at 3372-119901 </p>
+                <br>
+            </article>
+            
+        </main>
+        
+        <div class = "fullFooter">
+            <footer> 
+                <ul>
+                    <li> <a href = "about.html"> About Us </a> </li>
+                    <li> <a href = "clients.html"> Clients </a> </li>
+                    <li> <a href = "guides.html"> Guides </a> </li>
+                    <li> <a href = "contact.html"> Contact Us </a> </li>
+                </ul>
+                <p> WEBSITE CREATED BY CHAU TRAN | N9702130 </p>
+            </footer>
+        </div>
+        
+    </body>
+    
+    <script> /* JAVASCRIPT TO OPEN SIDE NAVBAR ON MOBILE */
+    function openNav() {
+        document.getElementById("mySidenav").style.display = "block";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.display = "none";
+    }
+</script>
+    
+</html>

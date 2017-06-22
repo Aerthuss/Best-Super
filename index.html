@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+
+
+<html lang = "en">
+    <head>
+        <title> Best Super </title>
+        
+        <link rel ="stylesheet" href="style.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Raleway|Open+Sans" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <meta charset="utf-8">
+        <meta name ="viewport" content ="width = device-width, initial-scale = 1.0">
+        
+    </head>
+    
+    <body>
+        
+        <header class = "topHeader"> 
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <h1> Best Super </h1>
+        </header>
+        
+                            
+        <nav class = "topNav">
+            <ul class = "navLinks">
+                <li id = "homeButton"> <a href = "index.html"> Best Super </a> </li>
+                <li class = "navRight"> <a href = "contact.html"> Contact Us </a> </li>
+                <li class = "navRight"> <a href = "clients.html"> Clients </a> </li>
+                <li class = "navRight"> <a href = "guides.html"> Guides </a> </li>
+                <li class = "navRight"> <a href = "about.html"> About Us </a> </li>
+                <li class = "navRight"> <a href = "index.html"> Home </a> </li>
+            </ul>
+        </nav>
+        
+        <aside id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html"> Home </a>
+            <a href="guides.html"> Guides </a>
+            <a href="clients.html"> Clients </a>
+            <a href="about.html"> About Us </a>
+            <a href="contact.html"> Contact Us </a>
+        </aside>
+        
+        <section id = "banner">
+            <img src = "http://www.bettertogethermexico.com/wp-content/uploads/2016/02/BAnner_Honeymoon.jpg" id = "bannerImg"/>
+            
+            <p id = "bannerText"> We're here to take care of your super while you enjoy your life. </p>
+        </section>
+        
+        <main>
+            
+            <article class = "homeArticle" id = "homeArticle1">
+                
+                <h3> Pleasing Services </h3>
+                <p> At Best Super, we hope to help you the best we can with getting the best super that is best fit to you.</p>
+                <br>
+                <p> Discover some of our client stories and guides below </p>
+                
+            </article>
+            
+            <article class = "homeArticle" id = "homeArticle2">
+                
+                <h3> Client Stories </h3>
+                
+                <p> "I didn't know what to do with my super until I started searching for help on Google and then found <em> Best Super  </em> . After I browsed their website (the one you're on right now), I figured that I would talk to them some more about what I should do with my super. After I talked to the consultants at Best Super I figured out what we would do with my super." </p>
+                
+                <p id = "clientNames"> <em> Ruby R.</em> </p>
+                <br>
+                
+                <button class = "articleButton" id = "storyButton">
+                    <a href = "clients.html"> Read more stories </a>
+                </button>
+                
+            </article>
+            
+            <article class = "homeArticle" id = "homeArticle3">
+                
+                <h3> Our Guides </h3>
+                    <div class = "guideImages"> 
+                        
+                        <figure>
+                            <a href = "super_talent_guide.html">
+                                <img src = "https://upload.wikimedia.org/wikipedia/commons/f/f4/Book_designed_by_Benny_Forsberg_from_the_Noun_Project_-_with_lines.png"/>
+                            </a>    
+                            <figcaption> Super Talents </figcaption>
+                            </figure>
+                        
+                        <figure>
+                            <a href = "super_investments_guide.html">
+                                <img src = "https://image.flaticon.com/icons/png/512/20/20687.png"/>
+                            </a>
+                            <figcaption> Super Investments </figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <a href = "super_guide.html">
+                                <img src = "https://d30y9cdsu7xlg0.cloudfront.net/png/12709-200.png"/>
+                            </a>
+                            <figcaption> Super Super </figcaption>
+                        </figure>
+                    </div>
+            </article>
+            
+        </main>
+        
+        <div class = "fullFooter">
+            <footer> 
+                <ul>
+                    <li> <a href = "about.html"> About Us </a> </li>
+                    <li> <a href = "clients.html"> Clients </a> </li>
+                    <li> <a href = "guides.html"> Guides </a> </li>
+                    <li> <a href = "contact.html"> Contact Us </a> </li>
+                </ul>
+                <p> WEBSITE CREATED BY CHAU TRAN | N9702130 </p>
+            </footer>
+        </div>
+        
+    </body>
+    
+<script> /* JAVASCRIPT TO OPEN SIDE NAVBAR ON MOBILE */
+    function openNav() {
+        document.getElementById("mySidenav").style.display = "block";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.display = "none";
+    }
+</script>
+    
+    
+</html>
